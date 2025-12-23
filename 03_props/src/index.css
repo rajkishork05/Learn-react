@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000;
+}
+
+.baap{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card img{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.card{
+  width: 15vw;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background: burlywood;
+  border-radius: 5px;
+  text-align: center;
+  h1{
+    text-transform: capitalize;
+  }
+}
