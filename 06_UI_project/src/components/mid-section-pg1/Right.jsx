@@ -9,7 +9,7 @@ const Right = (prop) => {
     thought: "Small steps every day can quietly build a future stronger than loud promises."
   },
   {
-    id: 2,
+    id:2,
     img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
     thought: "Your comfort zone may feel safe, but nothing exciting ever grows there."
   },

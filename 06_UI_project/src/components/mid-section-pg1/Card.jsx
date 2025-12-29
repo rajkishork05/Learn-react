@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowLeft } from 'lucide-react'
 const Card = (prop) => {
   return (
-    <div  className='hover:scale-108 shrink-0 transition-all  w-80 overflow-hidden relative h-full rounded-4xl ' >
+    <div className='hover:scale-108 shrink-0 transition-all  w-80 overflow-hidden relative h-full rounded-4xl ' >
       <img className='h-full object-cover' src={prop.img} alt="" />
       <div className='flex flex-col justify-between p-10 absolute top-0 left-0 h-full w-full' >
         <h1 className='font-medium bg-white w-6 h-9 px-5 py-4 rounded-full text-xl flex justify-center items-center '>{prop.id}</h1>
