@@ -4,7 +4,7 @@ const App = () => {
 
   const [data, setData] = useState([])
   const [index, setIndex] = useState(1)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const fetchData = async()=>{
     try {
       setLoading(true)
@@ -17,9 +17,9 @@ const App = () => {
     }
   }
 
-  // useEffect(() => {
-  //   fetchData();
-  // }, [index])
+  useEffect(() => {
+    fetchData();
+  }, [index])
   
 
   return (
